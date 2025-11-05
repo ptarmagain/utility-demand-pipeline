@@ -1,5 +1,5 @@
 ## Utility Demand Pipeline
-What started as a passion project is now an end-to-end pipeline that ingests weather and power grid data and overlays it in a warehouse for downstream analytics. It's written in Python/PySpark and is platform agnostic (can run on any cloud or locally), portable (utilizes containers for rapid setup), and scalable (we can easily add more data sources and schemas without refactoring).
+This is a passion project I made to sharpen my skills by building an end-to-end pipeline; it ingests weather and power grid data and overlays it in a warehouse for downstream analytics. It's written in Python/PySpark and is platform agnostic (can run on any cloud or locally), portable (utilizes containers for rapid setup), and scalable (we can easily add more data sources and schemas without refactoring).
 
 ## Setup
 This application has been containarized and all local setup automated so there's not much legwork to be done.
@@ -76,3 +76,4 @@ erDiagram
 - Update city table data types
 - Integrated testing
 - CI/CD automations
+- Add missing requirements to Docker file
